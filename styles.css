@@ -14,10 +14,16 @@ body{
     background-color: #f4f4f4;
 }
 
-h1,h2,h3, .logo{
+h1,h2,h3 {
     font-family: 'Bangers', sans-serif;
     font-weight: 700; 
     color: #222;
+}
+
+.logo{
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    color: #F5C518;
 }
 
 a{
@@ -32,4 +38,36 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* --- PASO 3: ENCABEZADO Y NAVEGACIÓN --- */
+.site-header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header {
+    padding: 1rem 0;
+    background-color: #1b1b1b;
+    border-bottom: 2px solid #f77f00;
+}
+
+.logo{
+    font-size: 2.5rem;
+}
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li {
+    margin-left: 20px;
+}
+
+.main-nav a {
+    font-weight: 700;
+}
+
+
 
