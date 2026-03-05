@@ -39,7 +39,7 @@ a{
     margin-right: auto;
 }
 
-/* --- PASO 3: ENCABEZADO Y NAVEGACIÓN --- */
+/* --- ENCABEZADO Y NAVEGACIÓN --- */
 .site-header .container {
     display: flex;
     flex-direction: row;
@@ -70,4 +70,37 @@ a{
 }
 
 
+/* --- Hero --- */
+
+#hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SouthParkTheFracturedButWhole_enGB.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 150px 0;
+    text-align: center;
+}
+
+#hero h1{
+color: white;
+font-size: 3.5rem;
+text-shadow: 2px 2px 8px #1B2A49; /* --- Le da sombra al texto --- */
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* --- Hero --- */
+
+.btn {
+    background-color: #F5C518;
+    color: #000000;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    display: inline-block;
+}
 
