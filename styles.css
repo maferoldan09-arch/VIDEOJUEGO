@@ -12,3 +12,14 @@ body{
     background-color: #f4f4f4;
 }
 
+h1,h2,h3, .logo{
+    font-family: 'Bangers', sans-serif;
+    font-weight: 700; 
+    color: #222;
+}
+
+a{
+    text-decoration: none;
+     color: #d62828;
+}
+
