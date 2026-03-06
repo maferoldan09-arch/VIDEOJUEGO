@@ -77,7 +77,7 @@ a{
     background-size: cover;
     background-position: center;
     color: #ffffff;
-    padding: 150px 0;
+    padding: 230px 0;
     text-align: center;
 }
 
@@ -110,6 +110,8 @@ background-color: #cca414;
 
 /* SECCIONES */
 
+
+/* Historia (inicial) */
 #historia {
     padding: 40px 0;
     text-align: center;
@@ -135,3 +137,62 @@ h2 {
 }
 
 
+/* Contenido */
+
+#menu {
+    padding: 80px 0;
+    text-align: center;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("https://i.ytimg.com/vi/7USbzKyuX_8/maxresdefault.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menu h2{
+    text-align: center;
+    color: #f4f4f4;
+}
+
+#menu p,h3{
+    color: #f4f4f4;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.menu-item{/* Centra el texto */
+    text-align: center;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+    color:#fe3131;
+}
+
+.btn:hover {
+    background-color: #65330e;
+    transition: background-color 0.3s ease;
+}
