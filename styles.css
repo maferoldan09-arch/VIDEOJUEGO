@@ -42,9 +42,9 @@ a{
 /* --- ENCABEZADO Y NAVEGACIÓN --- */
 .site-header .container {
     display: flex;
-    flex-direction:initial;
-    justify-content:left;
-    align-items: center;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 .site-header {
