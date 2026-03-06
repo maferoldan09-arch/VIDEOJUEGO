@@ -95,6 +95,7 @@ text-shadow: 2px 2px 8px #1B2A49; /* --- Le da sombra al texto --- */
 
 /* --- Botón --- */
 
+#hero
 .btn {
     background-color: #F5C518;
     color: #000000;
@@ -104,6 +105,7 @@ text-shadow: 2px 2px 8px #1B2A49; /* --- Le da sombra al texto --- */
     display: inline-block;
 }
 
+#hero
 .btn:hover { /* --- Oscurece el botón cuando se le pasa el mouse encima--- */
 background-color: #cca414;
 }
@@ -115,18 +117,18 @@ background-color: #cca414;
 #historia {
     padding: 40px 0;
     text-align: center;
-    background-color: #000000;
+    background-color: #F5C518;
 }
 
 h2 {
     font-size: 2.8rem;
     margin-bottom: 1.5rem;
-    color: #d62828;
+    color: #000000;
 
 }
 
 #historia p { 
-    color: #f4f4f4;
+    color: #000000;
 }
 
 #historia img{
@@ -192,7 +194,50 @@ a {
     color:#fe3131;
 }
 
-.btn:hover {
-    background-color: #65330e;
-    transition: background-color 0.3s ease;
+/* --- Sección final --- */
+
+#jugar{
+padding: 30px 0;
+text-align: center;
+color: #f4f4f4;
+background-color: #d62828;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#jugar h2{
+font-size: 2.8rem;
+margin-bottom: 1rem;
+color: #f7f7f7;
+}
+
+#jugar .container{/* --- Hace que la imagen vaya a un lado --- */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.jugar-texto{
+flex: 1;
+}
+
+.jugar-imagen{
+flex: 1;
+}
+
+.jugar-imagen img{
+width: 360px;
+}
+
+
+
+/* Footer */
+
+.site-footer {
+    background-color: #222;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
 }
