@@ -93,7 +93,7 @@ text-shadow: 2px 2px 8px #1B2A49; /* --- Le da sombra al texto --- */
 }
 
 
-/* --- Hero --- */
+/* --- Botón --- */
 
 .btn {
     background-color: #F5C518;
@@ -103,4 +103,35 @@ text-shadow: 2px 2px 8px #1B2A49; /* --- Le da sombra al texto --- */
     font-weight: 700;
     display: inline-block;
 }
+
+.btn:hover { /* --- Oscurece el botón cuando se le pasa el mouse encima--- */
+background-color: #cca414;
+}
+
+/* SECCIONES */
+
+#historia {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #000000;
+}
+
+h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+    color: #d62828;
+
+}
+
+#historia p { 
+    color: #f4f4f4;
+}
+
+#historia img{
+    width: 500px;
+    height: auto;
+     border-radius: 500px;
+    margin-top: 25px;
+}
+
 
