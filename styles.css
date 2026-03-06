@@ -95,8 +95,7 @@ text-shadow: 2px 2px 8px #1B2A49; /* --- Le da sombra al texto --- */
 
 /* --- Botón --- */
 
-#hero
-.btn {
+#hero .btn {
     background-color: #F5C518;
     color: #000000;
     padding: 15px 30px;
@@ -105,9 +104,8 @@ text-shadow: 2px 2px 8px #1B2A49; /* --- Le da sombra al texto --- */
     display: inline-block;
 }
 
-#hero
-.btn:hover { /* --- Oscurece el botón cuando se le pasa el mouse encima--- */
-background-color: #cca414;
+#hero .btn:hover { /* Oscurece el botón cuando se le pasa el mouse */
+    background-color: #cca414;
 }
 
 /* SECCIONES */
