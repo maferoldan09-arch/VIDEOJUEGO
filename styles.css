@@ -42,8 +42,8 @@ a{
 /* --- ENCABEZADO Y NAVEGACIÓN --- */
 .site-header .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction:initial;
+    justify-content:left;
     align-items: center;
 }
 
